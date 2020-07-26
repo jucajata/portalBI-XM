@@ -103,7 +103,7 @@ def graficar(to_plot):
     fig = figure(plot_width=800, plot_height=600)
     fig2 = figure(plot_width=800, plot_height=600)
 
-    fig.title.text = "Demanda del SIN " + fecha_1 +" - "+fecha_2 + " REGULADA"
+    fig.title.text = "Demanda del SIN  REGULADA"
     fig.title.align = "center"
     fig.title.text_color = "black"
     fig.title.text_font_size = "25px"
@@ -111,7 +111,7 @@ def graficar(to_plot):
     fig.xaxis.axis_label = 'HORA'
     fig.yaxis.axis_label = 'DEMANDA/1000'
 
-    fig2.title.text = "Demanda del SIN " + fecha_1 +" - "+fecha_2 + " NO REGULADO"
+    fig2.title.text = "Demanda del SIN NO REGULADA"
     fig2.title.align = "center"
     fig2.title.text_color = "black"
     fig2.title.text_font_size = "25px"
